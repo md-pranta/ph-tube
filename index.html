@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="index.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <main class="container">
+      <nav class="d-flex justify-content-around align-items-end mt-3 mb-3">
+        <!-- logo image -->
+        <img src="./Logo.png" alt="logo" />
+
+        <!-- button for sort the videos -->
+        <button type="btn" class="btn btn-outline-dark sorted">
+          Sort by Views
+        </button>
+
+        <!-- button for blog section -->
+        <button type="button" class="btn btn-danger blog_btn">
+          <a href="./blog/blog.html" target="_blank"> BLOG </a>
+        </button>
+      </nav>
+      <hr />
+
+      <!-- catagories button section -->
+      <section
+        class="d-flex justify-content-center mt-4 mb-5 catagories"
+      ></section>
+
+      <!-- content -->
+      <div class="row row-cols-1 row-cols-md-4 g-4 mb-5 show"></div>
+
+      <!-- error page -->
+      <section class="d-none text-center py-3 error">
+        <img class="img-fluid" src="./Icon.png" alt="icon" />
+        <h4 class="mt-4">Oops!! Sorry, There is no content here</h4>
+      </section>
+    </main>
+
+    <!-- javascript -->
+    <script src="./index.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+<!-- <a href="http://yourLink.com" target="_blank" onclick="Click();"
+>link text</a -->

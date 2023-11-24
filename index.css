@@ -1,0 +1,28 @@
+.card_container {
+  position: relative;
+}
+.time {
+  position: absolute;
+  background-color: black;
+  color: white;
+  right: 10px;
+  bottom: 7px;
+
+  border-radius: 9px;
+}
+.card_image {
+  height: 150px;
+}
+
+.blog_btn a {
+  text-decoration: none;
+  color: darkblue;
+}
+.category_btn:hover {
+  background-color: blue;
+}
+.profile_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
